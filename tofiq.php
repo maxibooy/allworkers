@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://spontaneous-halva-3d7de6.netlify.app/");
+header("Location: https://apply-for-again-get-request2.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
